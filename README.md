@@ -81,7 +81,7 @@ The test benches are designed to validate the functionality of each component an
 4. Observe waveforms and verify the outputs against expected results.
 
 ## Author
-Ruben Ramirez (Student ID: 2694)
+Ruben Ramirez
 
 ## License
 This project is licensed under the MIT License. See `LICENSE` for details.

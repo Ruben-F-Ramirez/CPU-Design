@@ -69,10 +69,12 @@ begin
     end if;
 end process;
 
-state_comb: process(enable,opcode,ps)
+state_comb: process(enable,opcode,ps,FUNCT)
 
 
 begin
+     ns <= ps;  -- Default: remain in current state
+    
      IF (ps = s_PRESET) THEN
         ns <= s_PRESET;
      ELSIF (ps = s_fetch_0) THEN
